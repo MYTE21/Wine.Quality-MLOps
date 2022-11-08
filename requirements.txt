@@ -1,3 +1,5 @@
 dvc
 dvc[gdrive]
 sklearn
+pandas~=1.5.1
+pyyaml~=6.0
