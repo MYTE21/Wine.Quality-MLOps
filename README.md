@@ -21,3 +21,6 @@ pip install -r requirements.txt
 7. ``dvc add data data_given/<dataset-name>``
 8. ``git add.``
 9. ``git commit -m "<commit-message>"``
+
+One line update:
+10. ``git add . && git commit -m "<commit-message>"``
