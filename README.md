@@ -19,3 +19,5 @@ pip install -r requirements.txt
 5. ``git init``
 6. ``dvc init``
 7. ``dvc add data data_given/<dataset-name>``
+8. ``git add.``
+9. ``git commit -m "<commit-message>"``
