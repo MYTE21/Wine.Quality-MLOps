@@ -24,3 +24,4 @@ pip install -r requirements.txt
 
 One line update:
 10. ``git add . && git commit -m "<commit-message>"``
+11. add stage 1 to the dvc.yaml file and run - ``dvc repro``
