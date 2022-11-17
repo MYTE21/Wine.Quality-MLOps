@@ -28,3 +28,19 @@ One line update:
 
 ``dvc metrics show``
 ``dvc metrics diff``
+
+## Test
+``tox.ini``
+
+run test: ``tox``
+after updating requirements.txt: ``tox -r``
+
+### Setup 
+setup.py 
+
+run the setup: ``pip install -e .``
+
+show install packages: ``pip freeze``
+
+Create a distribution in 'dist' folder what can be share for other collaborators for environment setup: ``python setup.py sdist bdist_wheel``
+
