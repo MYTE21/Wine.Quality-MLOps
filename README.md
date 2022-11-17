@@ -30,10 +30,11 @@ One line update:
 ``dvc metrics diff``
 
 ## Test
+pytest: ``pytest -v``
 ``tox.ini``
 
 run test: ``tox``
-after updating requirements.txt: ``tox -r``
+rebuild/after updating requirements.txt: ``tox -r``
 
 ### Setup 
 setup.py 
@@ -44,3 +45,4 @@ show install packages: ``pip freeze``
 
 Create a distribution in 'dist' folder what can be share for other collaborators for environment setup: ``python setup.py sdist bdist_wheel``
 
+build your own package commands: ``python setup.py sdist bdist_wheel``
