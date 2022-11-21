@@ -46,3 +46,6 @@ show install packages: ``pip freeze``
 Create a distribution in 'dist' folder what can be share for other collaborators for environment setup: ``python setup.py sdist bdist_wheel``
 
 build your own package commands: ``python setup.py sdist bdist_wheel``
+
+
+**PEP 8 - Style Guide for Python Code**: ``flake8``
