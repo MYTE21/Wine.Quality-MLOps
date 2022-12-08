@@ -49,3 +49,6 @@ build your own package commands: ``python setup.py sdist bdist_wheel``
 
 
 **PEP 8 - Style Guide for Python Code**: ``flake8``
+running flask app: ``python app.py``
+
+``cp .\saved_models\model.joblib .\prediction_service\model\``
